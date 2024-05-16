@@ -18,6 +18,7 @@ public class AddCookiesIntoWebsite {
         Set<Cookie> allCookies = driver.manage().getCookies();
         for (Cookie c : allCookies) {
             System.out.println(c);
+		System.out.println("Good Morning");
         }
        driver.close();
     }
